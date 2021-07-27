@@ -1,61 +1,53 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <main>
-      <h1>Prodcuts</h1>
-<div class="options">
-  <div id="myBtnContainer">
-    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-    <button class="btn" onclick="filterSelection('shoes')"> Shoes</button>
-    <button class="btn" onclick="filterSelection('shirts')"> Shirts</button>
-    <button class="btn" onclick="filterSelection('machine')"> Electronics</button>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <title>Product App</title>
+</head>
+<body>
+  <main>
+    <h1>Prodcuts</h1>
+    <div class="options">
+      <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('shoes')"> Shoes</button>
+        <button class="btn" onclick="filterSelection('shirts')"> Shirts</button>
+        <button class="btn" onclick="filterSelection('machine')"> Electronics</button>
 
-  </div>
-<br>
-  <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
-  <div class="container">
+      </div>
+      <br>
 
+      <div class="container">
+        <div class="filterDiv shoes">
+          <img src="src/nike.png" alt="">
+          <h3>Nike Man Flex</h3>
+          <h2>Rs. 8000 </h2>
+          <button type="button" name="button" class="cart">Add To Cart</button>
+        </div>
 
-<div class="filterDiv shoes">
-<img src="src/nike.png" alt="">
-<h3>Nike Man Flex</h3>
-<h2>Rs. 8000 </h2>
-<button type="button" name="button" class="cart">Add To Cart</button>
-  </div>
+        <div class="filterDiv shirts">
+          <img src="src/shirts.png" alt="">
+          <h3>Shirt</h3>
+          <h2>Rs. 750 </h2>
+          <button type="button" name="button" class="cart">Add To Cart</button>
+        </div>
 
-
-
-    <div class="filterDiv shirts">
-    <img src="src/shirts.png" alt="">
-    <h3>Shirt</h3>
-    <h2>Rs. 750 </h2>
-    <button type="button" name="button" class="cart">Add To Cart</button>
+        <div class="filterDiv machine">
+          <img src="src/machine.png" alt="">
+          <h3>Blender Machine</h3>
+          <h2>Rs. 65000 </h2>
+          <button type="button" name="button"  class="cart">Add To Cart</button>
+        </div>
       </div>
 
-
-
-    <div class="filterDiv machine">
-
-      <img src="src/machine.png" alt="">
-      <h3>Blender Machine</h3>
-      <h2>Rs. 65000 </h2>
-      <button type="button" name="button"  class="cart">Add To Cart</button>
     </div>
-  </div>
+  </main>
 
-</div>
-    </main>
-<!-- Control buttons -->
-  </body>
+</body>
 <script type="text/javascript" src="app.js">
-
 </script>
 </html>
