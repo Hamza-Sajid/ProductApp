@@ -1,3 +1,13 @@
+// var buy=document.getElementById("buy");
+var items=document.getElementById("items");
+var bought=0;
+
+function now() {
+console.log("done");
+bought++;
+items.innerHTML=bought;
+}
+
 filterSelection("all")
 function filterSelection(c) {
   var x, i;

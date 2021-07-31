@@ -11,6 +11,10 @@
 <body>
   <main>
     <h1>Prodcuts</h1>
+    <div class="carts">
+<img src="cart.png" alt="" width="40" height="40">
+<h5 id="items">0</h5>
+    </div>
     <div class="options">
       <div id="myBtnContainer">
         <button class="btn active" onclick="filterSelection('all')"> Show all</button>
@@ -26,21 +30,21 @@
           <img src="src/nike.png" alt="">
           <h3>Nike Man Flex</h3>
           <h2>Rs. 8000 </h2>
-          <button type="button" name="button" class="cart">Add To Cart</button>
+          <button onclick="now()" class="cart">Add To Cart</button>
         </div>
 
         <div class="filterDiv shirts">
           <img src="src/shirts.png" alt="">
           <h3>Shirt</h3>
           <h2>Rs. 750 </h2>
-          <button type="button" name="button" class="cart">Add To Cart</button>
+          <button onclick="now()" class="cart">Add To Cart</button>
         </div>
 
         <div class="filterDiv machine">
           <img src="src/machine.png" alt="">
           <h3>Blender Machine</h3>
           <h2>Rs. 6500 </h2>
-          <button type="button" name="button"  class="cart">Add To Cart</button>
+          <button onclick="now()" class="cart">Add To Cart</button>
         </div>
       </div>
 

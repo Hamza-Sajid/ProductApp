@@ -2,10 +2,27 @@ body
 {
 background: #EEC939;
 }
+.carts
+{
+  display: inline;
+  position: relative;
+  left: 40%;
+  top: 20px;
+
+}
+h5
+{
+  display: inline;
+  color: white;
+}
+.cart>h5
+{
+  display: inline;
+}
 main
 {
   width: 80%;
-  height: 30em;
+  height: 32em;
   margin: auto;
   background: #E46452;
   border: 5px solid white;
@@ -17,7 +34,8 @@ h1
 {
   font-family: 'Otomanopee One', sans-serif;
   color: white;
-
+  display: inline-block;
+  text-align: center;
 
 }
 .Nike
@@ -87,7 +105,7 @@ h2
     background: #E46452;
     color: white;
     font-weight: bolder;
-    
+
     color: black;
 }
 /* The "show" class is added to the filtered elements */
