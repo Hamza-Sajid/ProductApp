@@ -2,22 +2,10 @@ body
 {
 background: #EEC939;
 }
-.carts
-{
-  display: inline;
-  position: relative;
-  left: 40%;
-  top: 20px;
-
-}
 h5
 {
   display: inline;
   color: white;
-}
-.cart>h5
-{
-  display: inline;
 }
 main
 {
@@ -36,10 +24,8 @@ h1
   color: white;
   display: inline-block;
   text-align: center;
-
 }
 .Nike
-
 {
   width: 200px;
   height: 200px;
@@ -85,6 +71,18 @@ h2
   font-family: 'Otomanopee One', sans-serif;
   font-size: 16px;
 
+}
+.carts
+{
+  display: inline;
+  position: relative;
+  left: 40%;
+  top: 20px;
+
+}
+.cart>h5
+{
+  display: inline;
 }
 .cart{
       cursor: grab;

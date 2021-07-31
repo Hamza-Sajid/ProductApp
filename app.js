@@ -1,12 +1,17 @@
-// var buy=document.getElementById("buy");
+//Global Variables
+
 var items=document.getElementById("items");
 var bought=0;
 
+//Cart function update
+
 function now() {
-console.log("done");
-bought++;
-items.innerHTML=bought;
+  console.log("done");
+  bought++;
+  items.innerHTML=bought;
 }
+
+//Filter product function
 
 filterSelection("all")
 function filterSelection(c) {
